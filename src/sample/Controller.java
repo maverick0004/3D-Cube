@@ -71,16 +71,6 @@ public class Controller implements Initializable {
         pointLight2.setColor(Color.YELLOW);
     }
 
-    public void orange(){
-        pointLight1.setColor(Color.ORANGE);
-        pointLight2.setColor(Color.ORANGE);
-    }
-
-    public void red(){
-        pointLight1.setColor(Color.RED);
-        pointLight2.setColor(Color.RED);
-    }
-
     public void initialize(URL url, ResourceBundle resourceBundle){
         pane.setOnMouseClicked(event ->{
             if(event.isShiftDown())
