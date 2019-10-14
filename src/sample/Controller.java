@@ -70,6 +70,11 @@ public class Controller implements Initializable {
         pointLight1.setColor(Color.YELLOW);
         pointLight2.setColor(Color.YELLOW);
     }
+    
+    public void orange(){
+        pointLight1.setColor(Color.ORANGE);
+        pointLight2.setColor(Color.ORANGE);
+    }
 
     public void initialize(URL url, ResourceBundle resourceBundle){
         pane.setOnMouseClicked(event ->{
